@@ -1,0 +1,581 @@
+/* Start of fonts */
+@font-face {
+  font-family: Montserrat;
+  src: url("../Fonts/Montserrat-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: Poppins;
+  src: url("../Fonts/PoppinsLatin-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Poppins-regular;
+  src: url("../Fonts/Poppins_www.Downloadha.com/Poppins/PoppinsLatin-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-medium;
+  src: url("../Fonts/Poppins_www.Downloadha.com/Poppins/PoppinsLatin-Medium.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: Poppins-light;
+  src: url("../Fonts/Poppins_www.Downloadha.com/Poppins/PoppinsLatin-Light.ttf")
+    format("truetype");
+}
+/* End of fonts */
+/* ----------------------------------------------------------------- */
+/* Start of all selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/* End of all selector */
+/* ----------------------------------------------------------------- */
+/* Start of Container */
+.container {
+  margin: 0 auto;
+  width: 1500px;
+}
+/* End of container */
+/* ----------------------------------------------------------------- */
+/* Start of first background */
+.bg1 {
+  background-image: url("../Images/container1.jpg");
+  background-size: cover;
+  background-position: center top;
+  height: 1239.75px;
+}
+/* End of first background */
+/* ----------------------------------------------------------------- */
+/* Start of header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+.left-header {
+  display: inline-flex;
+  padding: 54px 0 0 50px;
+}
+.right-header {
+  display: inline-flex;
+  align-items: center;
+  padding: 60px 50px 0 0;
+}
+.right-header a {
+  list-style-type: none;
+  display: inline-flex;
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #202124;
+  margin-right: 28px;
+  font-size: 15px;
+}
+.right-header a:hover {
+  color: #1e63da;
+  transition: all 0.2s;
+}
+.right-header svg {
+  width: 19px;
+  opacity: 0.5;
+}
+.right-header button {
+  border: none;
+  color: #ffffff;
+  background-color: #1379e7;
+  font-family: Poppins;
+  font-size: 11px;
+  padding: 10px 19px;
+  border-radius: 3px;
+  margin-left: 30px;
+}
+.right-header button:hover {
+  background-color: #1955be;
+  transition: all 0.3s;
+}
+/* End of header */
+/* ----------------------------------------------------------------- */
+/* Start of first background description */
+.desc1 {
+  margin-left: 57%;
+  margin-top: 25%;
+}
+.title1 h3 {
+  color: #0b89f2;
+  font-size: 72px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.par {
+  color: #666666;
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: justify;
+  width: 500px;
+  font-family: Poppins-regular;
+}
+.buttons button {
+  border: none;
+  font-family: Poppins;
+  padding: 17px 36px 20px 36px;
+  margin-top: 10%;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 40px;
+  background: #5495ed;
+  background: linear-gradient(to right, #5495ed, #2c53e0 100%);
+}
+.buttons button:last-of-type {
+  background: #7152ec;
+  background: linear-gradient(to right, #7152ec, #2c30e0 100%);
+  margin-left: 4%;
+}
+/* End of first background description */
+/* ----------------------------------------------------------------- */
+/* Start of info */
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 15%;
+  text-align: center;
+}
+.info h3 {
+  margin: 30px 0;
+  color: #272728;
+  font-family: Poppins-regular;
+  font-weight: 100;
+  font-size: 17px;
+}
+.info p {
+  width: 400px;
+  color: #838383;
+  font-family: Poppins-regular;
+  font-size: 16px;
+}
+/* End of info */
+/* ----------------------------------------------------------------- */
+/* Start of about */
+.about {
+  padding-top: 12%;
+}
+/* Start of about system */
+.about-system img {
+  padding-left: 6%;
+  width: 30%;
+}
+.about-system-desc {
+  float: right;
+  width: 70%;
+  padding-left: 6%;
+}
+.about-system-desc h3 {
+  color: #1a1a1a;
+  font-family: Poppins-medium;
+  font-weight: lighter;
+  font-size: 27px;
+}
+.about-system-desc p:first-of-type {
+  width: 75%;
+  padding-top: 25px;
+  color: #5c5c5c;
+  font-family: Poppins-regular;
+  font-size: 17px;
+}
+.about-system-par p {
+  color: #5c5c5c;
+  font-family: Poppins-regular;
+  font-size: 17px;
+  padding-top: 15px;
+}
+.about-system-par p > i {
+  color: #228bfe;
+  font-size: 13px;
+  padding-right: 12px;
+}
+.about-system-desc a {
+  color: #248bf0;
+  font-family: Poppins-medium;
+  font-size: 15px;
+}
+/* End of about system */
+/* ----------------------------------------------------------------- */
+/* Start of about privacy */
+.about-privacy {
+  padding-top: 8%;
+  padding-left: 4%;
+}
+.about-privacy h3 {
+  color: #1a1a1a;
+  font-family: Poppins-medium;
+  font-weight: lighter;
+  font-size: 27px;
+}
+.about-privacy p {
+  color: #5c5c5c;
+  font-family: Poppins-regular;
+  font-size: 17px;
+  width: 45%;
+  padding-top: 2%;
+}
+/* End of about privacy */
+/* ----------------------------------------------------------------- */
+/* Start of logo privacy */
+.list1,
+.list2,
+.list3 {
+  padding-top: 20px;
+}
+.list1 img,
+.list2 img,
+.list3 img {
+  vertical-align: middle;
+}
+.logo-privacy {
+  padding-top: 2%;
+  width: 35%;
+}
+.logo-privacy span {
+  margin-bottom: 20px;
+  color: #383838;
+  font-family: Poppins-regular;
+  font-size: 17px;
+  padding-left: 15px;
+}
+.service-image {
+  float: right;
+  padding-right: 5%;
+}
+/* End of logo privacy */
+/* ----------------------------------------------------------------- */
+/* Start of about logo */
+.about-logo {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+.about-logo h3 {
+  font-family: Poppins-light;
+  font-weight: lighter;
+  color: #272728;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.about-logo p {
+  font-family: Poppins-regular;
+  color: #838383;
+  font-size: 15px;
+  padding-top: 10px;
+  width: 600px;
+}
+.about-logo img {
+  float: left;
+  padding-right: 4%;
+}
+.right-about-logo,
+.left-about-logo {
+  padding-left: 4%;
+}
+.feature1,
+.feature2,
+.feature3,
+.feature4,
+.feature5,
+.feature6,
+.feature7,
+.feature8 {
+  padding-top: 8%;
+}
+/* End of about logo */
+/* ----------------------------------------------------------------- */
+/* Start of secend background */
+.bg2 {
+  background: url("../Images/bg2.png");
+  background-size: cover;
+  z-index: -1;
+  padding-top: 5%;
+  margin-top: 10%;
+}
+/* Start of secend background container */
+.container-bg2 {
+  position: relative;
+  margin: 0 auto;
+  width: 1345px;
+}
+/* End of secend background container */
+/* ----------------------------------------------------------------- */
+/* Start of Allocation image */
+.bg3 img {
+  position: absolute;
+  top: -195px;
+  left: 100px;
+}
+/* End of Allocation image */
+.blue-border {
+  width: 1px;
+  height: 50px;
+  border-right: 1px solid #0b89f2;
+  margin: 0 auto;
+}
+.desc-bg2-1 {
+  font-family: Poppins;
+  color: #335ee2;
+  padding-top: 4%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.desc-bg2-2 {
+  font-family: Poppins-regular;
+  color: #a0a0a0;
+  padding-top: 0.5%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+/* Start of first content */
+.content {
+  display: flex;
+}
+/* Start of token */
+.token {
+  padding-top: 10%;
+  width: 50%;
+  display: flex;
+}
+.left-token {
+  padding-left: 4%;
+}
+.left-token h1 {
+  padding-bottom: 5%;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.left-token span {
+  font-family: Poppins-regular;
+  color: #666666;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.token li {
+  padding-bottom: 15%;
+}
+.right-token {
+  padding-left: 20%;
+}
+.right-token h1 {
+  padding-bottom: 7%;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.right-token span {
+  font-family: Poppins-regular;
+  color: #666666;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.right-token li {
+  padding-bottom: 20%;
+}
+/* End of token */
+/* ----------------------------------------------------------------- */
+/* Start of chart */
+.chart {
+  width: 50%;
+  padding-top: 8%;
+}
+/* End of chart */
+.token-desc {
+  color: #a3a3a3;
+  font-size: 13px;
+  font-family: Poppins-regular;
+  padding-top: -1%;
+  padding-left: 2%;
+}
+/* End of first content */
+/* ----------------------------------------------------------------- */
+/* Start of secend content */
+.content2 {
+  display: flex;
+  padding-top: 10%;
+}
+/* Start of left secend content */
+.left-content2 {
+  width: 50%;
+  padding-left: 4%;
+}
+.left-content2 div {
+  padding-top: 7%;
+  width: 510px;
+}
+.left-content2 h1 {
+  color: #272728;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.left-content2 img {
+  float: left;
+  padding-right: 4%;
+}
+.left-content2 p {
+  color: #838383;
+  font-family: Poppins-regular;
+  font-size: 16px;
+}
+/* End of left secend content */
+/* ----------------------------------------------------------------- */
+/* Start of  right secend content */
+.right-content2 {
+  width: 50%;
+}
+.right-content2 {
+  width: 640px;
+  height: 330px;
+  background-color: #f8f8f8;
+  border-radius: 2px;
+  text-align: center;
+}
+/* Start of buy token button */
+.buy-token button {
+  color: #fff;
+  background: linear-gradient(to right, #2c54e0, #5393ed);
+  border: none;
+  padding: 15px 33px;
+  border-radius: 30px;
+  font-family: Poppins;
+  font-weight: bolder;
+  font-size: 13px;
+  margin-top: 11%;
+}
+/* End of buy token button */
+.buy-token-counting {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 8%;
+}
+.left-counting span:first-of-type,
+.right-counting span:first-of-type {
+  color: #000000;
+  font-size: 13px;
+  font-family: Poppins;
+  font-weight: bolder;
+  display: flex;
+  letter-spacing: 2px;
+}
+.right-counting span:first-of-type {
+  justify-content: end;
+}
+.left-counting span:last-of-type,
+.right-counting span:last-of-type {
+  color: #9d9d9d;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: bolder;
+}
+/* Start of chart skill */
+.chart-skill {
+  width: 303px;
+  height: 6px;
+  background-color: #ccc;
+  margin: 15px auto;
+  border-radius: 20px;
+}
+.into-chart-skill {
+  width: 200px;
+  height: 6px;
+  background-color: rgb(19 121 231);
+  border-radius: 20px 0 0 20px;
+}
+/* End of chart skill */
+.buy-token-footer{
+  display: flex;
+  align-items: center;
+  padding-left: 26%;
+  padding-top: 15px;
+}
+.buy-token span{
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000000;
+}
+.buy-token img {
+  padding-left: 3%;
+}
+/* End of right secend content */
+/* End of secend content */
+/* End of secend background */
+/* ----------------------------------------------------------------- */
+/* Start of the team */
+/* Start of team background */
+.team-bg{
+  background-image: url('../Images/personnel-title-bg.png');
+  width: 1153px;
+  height: 273px;
+  background-size: cover;
+}
+/* Start of team background container */
+.container-teambg{
+  position: relative;
+  margin: 0 auto;
+  width: 1345px;
+}
+/* End of team background container */
+.team-bg{
+  position: absolute;
+  top: -230px;
+  left: 100px;
+}
+/* End of team background */
+.black-border{
+  width: 1px;
+  height: 35px;
+  border-right: 1px solid black;
+  margin: 0 auto;
+  margin-top: 12%;
+}
+.the-team-desc{
+  text-align: center;
+  padding-top: 5%;
+  color: #2B2B2B;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+/* Start of team info */
+.team-info{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+.team-info img{
+  width: 280px;
+  height: 179px;
+}
+.team-info h3{
+  color: #383838;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.team-info span{
+  color: #888888;
+  font-family: Poppins-regular;
+  font-size: 13px;
+}
+/* End of team info */
