@@ -498,13 +498,13 @@ header {
   border-radius: 20px 0 0 20px;
 }
 /* End of chart skill */
-.buy-token-footer{
+.buy-token-footer {
   display: flex;
   align-items: center;
   padding-left: 26%;
   padding-top: 15px;
 }
-.buy-token span{
+.buy-token span {
   font-family: Poppins;
   font-weight: bold;
   font-size: 15px;
@@ -519,52 +519,52 @@ header {
 /* ----------------------------------------------------------------- */
 /* Start of the team */
 /* Start of team background */
-.team-bg{
-  background-image: url('../Images/personnel-title-bg.png');
+.team-bg {
+  background-image: url("../Images/personnel-title-bg.png");
   width: 1153px;
   height: 273px;
   background-size: cover;
 }
 /* Start of team background container */
-.container-teambg{
+.container-teambg {
   position: relative;
   margin: 0 auto;
   width: 1345px;
 }
 /* End of team background container */
-.team-bg{
+.team-bg {
   position: absolute;
   top: -230px;
   left: 100px;
 }
 /* End of team background */
-.black-border{
+.black-border {
   width: 1px;
   height: 35px;
   border-right: 1px solid black;
   margin: 0 auto;
   margin-top: 12%;
 }
-.the-team-desc{
+.the-team-desc {
   text-align: center;
   padding-top: 5%;
-  color: #2B2B2B;
+  color: #2b2b2b;
   font-family: Poppins;
   font-weight: bold;
   font-size: 15px;
   letter-spacing: 2px;
 }
 /* Start of team info */
-.team-info{
+.team-info {
   display: flex;
   justify-content: space-evenly;
   padding-top: 4%;
 }
-.team-info img{
+.team-info img {
   width: 280px;
   height: 179px;
 }
-.team-info h3{
+.team-info h3 {
   color: #383838;
   font-family: Poppins;
   font-size: 14px;
@@ -573,9 +573,99 @@ header {
   padding-top: 15px;
   padding-bottom: 5px;
 }
-.team-info span{
+.team-info span {
   color: #888888;
   font-family: Poppins-regular;
   font-size: 13px;
 }
+.team-info i {
+  color: rgb(73, 73, 73);
+  padding-top: 18px;
+  padding-right: 12px;
+}
+.team-info i:hover {
+  color: black;
+  transition: all 0.5s;
+}
 /* End of team info */
+
+/* Start of advisors */
+.advisors-bg {
+  background-image: url("../Images/advisory-title-bg-1.png");
+  width: 1153px;
+  height: 273px;
+  background-size: cover;
+}
+/* Start of advisors background continer */
+.container-advisorsbg {
+  position: relative;
+  margin: 0 auto;
+  width: 1345px;
+}
+/* End of advisors background continer */
+.advisors-bg {
+  position: absolute;
+  top: -211px;
+  left: 100px;
+}
+.advisors-desc {
+  text-align: center;
+  padding-top: 5%;
+  color: #2b2b2b;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.black-border2 {
+  width: 1px;
+  height: 35px;
+  border-right: 1px solid black;
+  margin: 0 auto;
+  margin-top: 9%;
+}
+/* End of advisors */
+
+/* Start of roedmap */
+.roedmap {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 1000px;
+  margin-top: 5%;
+}
+.roedmap-bg {
+  background-image: url("../Images/roadmap-title-bg-1.png");
+  width: 1144px;
+  height: 251px;
+  background-size: cover;
+}
+/* Start of roedmap background container */
+.container-roeadmapbg {
+  position: relative;
+  margin: 0 auto;
+  width: 1345px;
+}
+/* End of roedmap background container */
+.roedmap-bg {
+  position: absolute;
+  top: -35px;
+  left: 100px;
+}
+.desc-roedmap1 {
+  font-family: Poppins;
+  color: #335ee2;
+  padding-top: 12.5%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.desc-roedmap2 {
+  font-family: Poppins-regular;
+  color: #a0a0a0;
+  padding-top: 0.5%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.roedmap-chart {
+  padding-top: 17%;
+}
+/* End of roedmap */
