@@ -630,7 +630,7 @@ header {
 .roedmap {
   background-color: #f7f7f7;
   width: 100%;
-  height: 1000px;
+  height: 850px;
   margin-top: 5%;
 }
 .roedmap-bg {
@@ -669,3 +669,125 @@ header {
   padding-top: 17%;
 }
 /* End of roedmap */
+
+/* Start of partners */
+.partners {
+  background: linear-gradient(
+    to right,
+    rgba(33, 173, 255, 1),
+    rgba(37, 62, 209, 1)
+  );
+  height: 560px;
+  padding-top: 4%;
+}
+.white-border {
+  width: 1px;
+  height: 35px;
+  border-right: 1px solid #fff;
+  margin: 0 auto;
+}
+.partners-desc {
+  text-align: center;
+  padding-top: 20px;
+}
+.partners-desc h3 {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.partners-desc span {
+  font-family: Poppins-regular;
+  font-size: 16px;
+  color: #a9c9ff;
+  letter-spacing: 1px;
+}
+.image-partners {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2%;
+}
+/* End of partners */
+
+/* Start of UPDATES */
+.update-desc {
+  text-align: center;
+  padding-top: 6%;
+}
+.update-desc h3 {
+  font-family: Poppins-regular;
+  font-size: 15px;
+  color: #030303;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+.update-desc span {
+  font-family: Poppins-regular;
+  font-size: 16px;
+  color: #898989;
+  letter-spacing: 1px;
+}
+/* Start of Sponser logo */
+.sponsers-logo {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3%;
+}
+.sponsers-logo img {
+  width: 210px;
+}
+/* End of  Sponser logo */
+
+/* Start of UPDATES background */
+.update-bg {
+  background-image: url("../Images/blog-title-bg.png");
+  width: 800px;
+  height: 225px;
+  margin-left: 25%;
+  position: relative;
+}
+/* End of UPDATES background */
+.blue-border2 {
+  width: 1px;
+  height: 55px;
+  border-right: 1px solid #335ee2;
+  margin: 0 auto;
+  margin-top: 4.5%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+}
+.update-bg-desc {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #335ee2;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 21%;
+}
+/* Start of blog */
+.blog {
+  padding-top: 4%;
+  display: flex;
+  justify-content: center;
+}
+.left-blog {
+  width: 50%;
+  text-align: right;
+}
+.left-blog img {
+  padding-right: 20px;
+  border-radius: 3px;
+}
+.right-blog {
+  width: 50%;
+}
+.right-blog img {
+  width: 85px;
+  border-radius: 3px;
+  padding-bottom: 32px;
+  margin-left: 10px;
+}
+/* End of blog */
+/* End of UPDATES */
