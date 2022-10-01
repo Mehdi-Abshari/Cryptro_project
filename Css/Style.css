@@ -783,11 +783,50 @@ header {
 .right-blog {
   width: 50%;
 }
-.right-blog img {
-  width: 85px;
-  border-radius: 3px;
-  padding-bottom: 32px;
-  margin-left: 10px;
+.line-blog {
+  display: flex;
+}
+.line-blog img {
+  width: 80px;
 }
 /* End of blog */
+.blog-btn {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3%;
+}
+.blog-btn button {
+  color: #fff;
+  background: linear-gradient(to right, #5495ed, #2c53e0);
+  border: none;
+  font-family: Poppins-medium;
+  font-size: 14px;
+  padding: 18px 32px;
+  border-radius: 30px;
+}
 /* End of UPDATES */
+/* Start of whitepaper */
+.whitepaper {
+  background-color: rgb(245 245 245);
+  margin-top: 4%;
+  height: 300px;
+}
+.left-whitepaper {
+  padding-top: 5%;
+  padding-left: 9%;
+}
+.left-whitepaper h3 {
+  font-family: Poppins-regular;
+  font-size: 29px;
+  color: #3866e4;
+  margin-top: -3.5%;
+  margin-left: 5%;
+}
+.left-whitepaper p {
+  font-family: Poppins-regular;
+  font-size: 16px;
+  color: #666666;
+  width: 670px;
+  padding-top: 20px;
+}
+/* End of whitepaper */
