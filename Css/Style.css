@@ -135,11 +135,13 @@ header {
   border-radius: 40px;
   background: #5495ed;
   background: linear-gradient(to right, #5495ed, #2c53e0 100%);
+  cursor: pointer;
 }
 .buttons button:last-of-type {
   background: #7152ec;
   background: linear-gradient(to right, #7152ec, #2c30e0 100%);
   margin-left: 4%;
+  cursor: pointer;
 }
 /* End of first background description */
 /* ----------------------------------------------------------------- */
@@ -304,8 +306,8 @@ header {
   background: url("../Images/bg2.png");
   background-size: cover;
   z-index: -1;
-  padding-top: 5%;
-  margin-top: 10%;
+  padding-top: 110px;
+  margin-top: 200px;
 }
 /* Start of secend background container */
 .container-bg2 {
@@ -331,7 +333,7 @@ header {
 .desc-bg2-1 {
   font-family: Poppins;
   color: #335ee2;
-  padding-top: 4%;
+  padding-top: 58px;
   letter-spacing: 2px;
   text-align: center;
 }
@@ -457,6 +459,7 @@ header {
   font-weight: bolder;
   font-size: 13px;
   margin-top: 11%;
+  cursor: pointer;
 }
 /* End of buy token button */
 .buy-token-counting {
@@ -630,8 +633,9 @@ header {
 .roedmap {
   background-color: #f7f7f7;
   width: 100%;
-  height: 850px;
+  height: 1000px;
   margin-top: 5%;
+  position: relative;
 }
 .roedmap-bg {
   background-image: url("../Images/roadmap-title-bg-1.png");
@@ -668,6 +672,74 @@ header {
 .roedmap-chart {
   padding-top: 17%;
 }
+.left-roedmap {
+  text-align: right;
+  position: absolute;
+  margin-left: 430px;
+  cursor: pointer;
+}
+.left-roedmap div {
+  margin-bottom: 61px;
+}
+.left-roedmap div:first-of-type h3 {
+  color: #335ee2;
+}
+.left-roedmap h3 {
+  font-family: Poppins;
+  font-size: 14px;
+  color: #a5a5a5;
+}
+.left-roedmap span {
+  font-family: Poppins-regular;
+  font-size: 13px;
+  color: #b3b3b3;
+}
+.main-roedmap div {
+  margin-bottom: 50px;
+}
+.circle-roedmap {
+  width: 50px;
+  height: 50px;
+  background-color: #7d7d7d;
+  border-radius: 50%;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-top: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+.circle-roedmap:first-of-type {
+  background-color: #335ee2;
+}
+.right-roedmap {
+  position: relative;
+  top: -705px;
+  margin-left: 820px;
+}
+.right-roedmap span {
+  font-family: Poppins-regular;
+  font-size: 13px;
+  color: #6f6f6f;
+  letter-spacing: 2px;
+}
+.right-roedmap h3 {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+.right-roedmap p {
+  font-family: Poppins-regular;
+  font-size: 17px;
+  color: #666666;
+  width: 450px;
+  margin-top: 30px;
+}
 /* End of roedmap */
 
 /* Start of partners */
@@ -678,7 +750,7 @@ header {
     rgba(37, 62, 209, 1)
   );
   height: 560px;
-  padding-top: 4%;
+  padding-top: 60px;
 }
 .white-border {
   width: 1px;
@@ -803,12 +875,13 @@ header {
   font-size: 14px;
   padding: 18px 32px;
   border-radius: 30px;
+  cursor: pointer;
 }
 /* End of UPDATES */
 /* Start of whitepaper */
 .whitepaper {
   background-color: rgb(245 245 245);
-  margin-top: 4%;
+  margin-top: 100px;
   height: 300px;
 }
 .left-whitepaper {
@@ -829,4 +902,132 @@ header {
   width: 670px;
   padding-top: 20px;
 }
+.right-whitepaper {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  margin-top: -93px;
+  margin-right: 100px;
+  width: 600px;
+}
+.whitepaper-btn1 button {
+  font-family: Poppins-regular;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  background: linear-gradient(to right, #5494ed, #2c52e0);
+  padding: 30px 60px;
+  cursor: pointer;
+}
+.whitepaper-btn2 button {
+  font-family: Poppins-regular;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  background: linear-gradient(to right, #5494ed, #2c52e0);
+  padding: 30px 60px;
+  cursor: pointer;
+}
 /* End of whitepaper */
+
+/* Start of footer */
+footer {
+  background-color: #f9f9f9;
+}
+.left-footer {
+  padding-top: 100px;
+  padding-left: 125px;
+}
+.left-footer h3 {
+  font-family: Poppins;
+  font-size: 27px;
+  color: #383838;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.contactus-1,
+.contactus-2,
+.contactus-3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: Poppins-regular;
+  font-size: 16px;
+  color: #383838;
+}
+.contactus-1 span,
+.contactus-2 span,
+.contactus-3 span {
+  margin-left: 20px;
+}
+/* Start of Socials */
+.socials {
+  margin-top: 40px;
+}
+.socials i {
+  color: #3e6fe6;
+  font-size: 21px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+/* End of Socials */
+
+/* Start of right footer */
+.right-footer {
+  position: relative;
+  top: -285px;
+  margin-left: 36%;
+}
+.right-footer input {
+  display: flex;
+  border: none;
+  outline: none;
+  width: 700px;
+  font-family: Poppins-regular;
+  font-size: 16px;
+  border-bottom: 2px solid #3866e4;
+  background-color: #f9f9f9;
+  padding-bottom: 10px;
+}
+/* Start of inputs */
+#input2 {
+  margin-top: 30px;
+}
+#input3 {
+  margin-top: 30px;
+}
+#input4 {
+  margin-top: 30px;
+  padding-bottom: 80px;
+}
+/* End of inputs */
+/* End of right footer */
+
+/* Start of Message button */
+.message-btn {
+  margin-top: -265px;
+  margin-left: 540px;
+}
+.message-btn button {
+  font-family: Poppins;
+  font-size: 13px;
+  color: #fff;
+  background-color: #236be4;
+  border: none;
+  padding: 13px 50px;
+  cursor: pointer;
+}
+/* End of Message button */
+
+/* Start of copyright footer */
+.copyright-footer {
+  background-color: #efefef;
+  text-align: center;
+  font-family: Poppins-regular;
+  font-size: 16px;
+  color: #6d6d6d;
+  padding: 35px 0;
+  margin-top: 90px;
+}
+/* End of copyright footer */
+/* End of footer */
