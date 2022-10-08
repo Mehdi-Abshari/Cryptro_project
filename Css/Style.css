@@ -1,3 +1,9 @@
+/* 
+    Title: Cryptro Project Css;
+    Versson: 0.0.2;
+    Developer: Mehdi Abshari;
+    Modified Date: 1401-06-07;
+ */
 /* Start of fonts */
 @font-face {
   font-family: Montserrat;
@@ -29,6 +35,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
 }
 body {
   font-family: sans-serif;
@@ -852,14 +861,64 @@ header {
   padding-right: 20px;
   border-radius: 3px;
 }
+.bitcoin-img {
+  position: relative;
+}
+.desc-bitcoin-img {
+  text-align: left;
+  position: absolute;
+  bottom: 45px;
+  right: 80px;
+}
+.desc-bitcoin-img h3 {
+  font-family: Poppins;
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+  width: 500px;
+  padding-bottom: 15px;
+}
+.desc-bitcoin-img span {
+  font-family: Poppins-medium;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-right: 12px;
+}
 .right-blog {
   width: 50%;
 }
-.line-blog {
-  display: flex;
-}
-.line-blog img {
+#line-blog1 img,
+#line-blog2 img,
+#line-blog3 img,
+#line-blog4 img {
   width: 80px;
+}
+#line-blog1,
+#line-blog2,
+#line-blog3,
+#line-blog4 {
+  display: flex;
+  margin-bottom: 43px;
+  margin-left: 15px;
+}
+.desc-line-blog {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.desc-line-blog h3 {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: bold;
+  color: #343434;
+  padding-bottom: 15px;
+}
+.desc-line-blog span {
+  font-family: Poppins-medium;
+  font-size: 12px;
+  color: #959595;
+  letter-spacing: 1px;
+  margin-right: 12px;
 }
 /* End of blog */
 .blog-btn {
